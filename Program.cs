@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("Frontend", policy =>
     {
         policy.WithOrigins(
-                "https://rayceeivan11-cell.github.io",
+                "https://medillofranc.github.io",
                 "http://127.0.0.1:5500",
                 "http://localhost:5500")
             .AllowAnyHeader()
